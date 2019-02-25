@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Button } from './Button';
+import App from './App';
 
 class Random extends React.Component {
   constructor(props){
@@ -62,5 +63,7 @@ class Random extends React.Component {
 
 ReactDOM.render(
   <Random />,
-  document.getElementById('app')
+  document.getElementById('root')
 );
+
+export default Random;

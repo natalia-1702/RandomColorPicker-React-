@@ -1,4 +1,5 @@
 import React from 'react';
+import App from './App';
 
 export class Button extends React.Component {
 	render() {
